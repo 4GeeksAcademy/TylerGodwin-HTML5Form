@@ -1,0 +1,34 @@
+.radios {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-label {
+    margin-left: 25px;
+}
+
+.textMessage {
+    margin-right: 24px;
+    margin-bottom: 50px;
+    width: 383px;
+}
+
+.button-row {
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textMessage::after {
+    content: "Add any notes here.";
+    color: grey;
+    font-size: 10pt;
+}
